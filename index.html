@@ -9,33 +9,29 @@
 	<title>Title in the tab</title>
 
 	<!-- external CSS link -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+		integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+		crossorigin="" />
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header>
-		<h1>Monster Picker</h1>
-		<button class="resetbutton">RESET</button>
-		<!-- <h2 id="dog_name">default name</h2> -->
-	</header>
-	<section class="container">
-		<section class="colum">
-			<h3>What Ya Looking to Battle?</h3>
-			<h4>Type</h4>
-			<select class="type">
-				<option value="starter" selected>Select Me!</option>
-			</select>
-			<img src='/img/monster_manual.png' class="monster_img" alt="">
-		</section>
-		<section class="colum">
-			<h3>Monster Info</h3>
-			<h5 class="monster_list">
-			</h5>
-		</section>
-	</section>
+	<!-- <input id="lat">LATITUDE<input>
+	<input id="long">LONGITUDE<input> -->
+	<div id="map"></div>
 
 
+
+
+
+
+
+
+
+	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+		integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+		crossorigin=""></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 
